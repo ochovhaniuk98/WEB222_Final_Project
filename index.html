@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hide and Seek Game</title>
+    <meta charset="UTF-8"> <!--specifies the character encoding-->
+    <meta name="description" content="Hide and Seek">
+    <meta name="keywords" content="Hide and Seek, Game, Kids Game">
+    <meta name="author" content="Olha Chovhaniuk">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/index.css" type="text/css">
+
+    <!--Google Font embedded-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <h2 id="title">Hide and Seek Game</h2>
+    <p>One of the best and well known game in the world! Played in different countries and by people of any age. Would
+        be a great fit for a family event, birthday parties and even weddings. People of different age groups rate it as
+        one of the funniest and most memorable games they have ever played.</p>
+
+    <!--Video Hide and Seek-->
+    <figcaption id="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SS-eszgKrb0" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </figcaption>
+
+
+    <!--Link to Info page, Reviews and Author-->
+    <p id="info_link_description">Want to lear more? <br><br><a href="info.html" targer="_blank" id="info_link">Game
+            Info
+        </a><br><br>
+        <a href="reviews.html" targer="_blank" id="info_link">Reviews
+        </a> <br><br>
+        <a href="about.html" targer="_blank" id="info_link">Author
+        </a>
+    </p>
+
+
+
+
+
+    <!--FORM Newletter-->
+    <p id="title_Newsletter">Join Newsletter</p>
+    <form id="form" method="post" action="https://httpbin.org/post">
+        <div id="email">
+            <label id="label_Email">Email </label><input type="email" required>
+        </div>
+        <div id="myName">
+            <input type="hidden" name="name" value="Olha Chovhaniuk">
+        </div>
+
+        <div id="join">
+            <button type="submit" id="join-btn">Join</button>
+        </div>
+
+
+    </form>
+
+
+</body>
+
+</html>

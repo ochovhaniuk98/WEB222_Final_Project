@@ -1,0 +1,32 @@
+body {
+    background-color: #eaf6f6;
+    margin: 0;
+
+}
+
+h2 {
+    text-align: center;
+    background-color: #ffc0c2;
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+p {
+    text-align: center;
+    padding: 20px 200px 20px 200px;
+
+    background-color: #f7e9e3;
+    margin: 0;
+}
+
+h4 {
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+ol {
+    padding-left: 115px;
+
+}

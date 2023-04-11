@@ -1,0 +1,107 @@
+body {
+    /*to be able to add different colours in other sections without default body's colours*/
+    margin: 0;
+    padding: 0;
+    color: #0e3150;
+    background-color: #f7e9e3;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        background-color: #f7e9e3;
+    }
+
+    #video {
+        max-width: 95%;
+        height: auto;
+    }
+
+}
+
+#title {
+    text-align: center;
+    background-color: #ffc0c2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+
+}
+
+p {
+    padding: 15px 300px 15px 300px;
+}
+
+#video {
+    display: flex;
+    justify-content: center;
+
+    padding: 25px 50px 25px 50px;
+    margin: 0;
+}
+
+#info_link_description {
+    margin-bottom: 10px;
+}
+
+#info_link {
+    background-color: #cabbe9;
+    border-radius: 20px;
+
+    padding: 5px 10px;
+
+    border-radius: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#title_Newsletter {
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 0;
+    padding-top: 28px;
+
+    background-color: #eaf6f6;
+}
+
+#form {
+    background-color: #eaf6f6;
+}
+
+#email {
+    display: flex;
+    justify-content: center;
+
+    padding-bottom: 20px;
+    padding-right: 17px;
+}
+
+#label_Email {
+    padding-right: 10px;
+
+}
+
+#join {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-right: 65px;
+
+}
+
+#join-btn {
+    border-radius: 13px;
+    border-color: #ffc0c2;
+
+    background-color: #ffc0c2;
+    color: #eaf6f6;
+
+}

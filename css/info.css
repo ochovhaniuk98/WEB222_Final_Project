@@ -1,0 +1,136 @@
+body {
+    /*to be able to add different colours in other sections without default body's colours*/
+    margin: 0;
+    padding: 0;
+    color: #0e3150;
+    background-color: #f7e9e3;
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        background-color: #f7e9e3;
+    }
+
+    #video,
+    #kids {
+        max-width: 95%;
+        height: auto;
+    }
+
+    #Game_Hystory_Header,
+    #kids_description,
+    #Game_Rules_Header,
+    #Rules_Paragraph,
+    #rules_ol,
+    #video,
+    #title_mission,
+    #rules_ul,
+    #Game_Tips_Header,
+    #Tips_Hide_Paragraph,
+    #Tips_Seek_Paragraph {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
+
+#Game_Hystory_Header {
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#history_Paragraph {
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+#kids {
+    display: flex;
+    justify-content: center;
+}
+
+#kids_description {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#Game_Rules_Header {
+
+    padding: 20px 50px 0px 50px;
+    margin: 0;
+    background-color: #ffc0c2;
+
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#Rules_Paragraph {
+    padding: 0px 50px 20px 50px;
+    margin: 0;
+
+    background-color: #ffc0c2;
+
+}
+
+#rules_ol {
+    padding-left: 70px;
+    padding-right: 50px;
+
+    margin: 0;
+
+    background-color: #ffc0c2;
+}
+
+#video {
+    display: flex;
+    justify-content: center;
+
+    background-color: #ffc0c2;
+
+    padding: 25px 50px 25px 50px;
+    margin: 0;
+}
+
+#title_mission {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    margin: 0;
+    background-color: #ffc0c2;
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+
+#rules_ul {
+    padding-left: 15px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    margin: 0;
+    background-color: #ffc0c2;
+}
+
+#Game_Tips_Header {
+    text-align: center;
+    margin: 0;
+    background-color: #f7e9e3;
+    padding-top: 20px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#Tips_Hide_Paragraph {
+    padding-left: 50px;
+    padding-right: 50px;
+
+
+    margin: 0;
+    background-color: #f7e9e3;
+}
+
+#Tips_Seek_Paragraph {
+
+    padding: 10px 50px 20px 50px;
+    margin: 0;
+    background-color: #f7e9e3;
+}

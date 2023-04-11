@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<!--Below the final review, include an HTML Form that allows a new review to be added.  Include appropriate HTML Input elements to enter all the necessary fields for a review and use the correct Input Attributes. When the user clicks a “Create” button at the bottom of the form, use JavaScript to add a new Object to the reviewData Array, then re-generate all the review cards (i.e., clear the cards and reshow them, including the new review just added).
+
+NOTE: the review added by a user won’t be saved (i.e., will disappear on reload or navigation), which is OK.  We are only interested in you showing it in the front-end.
+-->
+
+<head>
+    <title>Game Reviews</title>
+    <meta charset="UTF-8"> <!--specifies the character encoding-->
+    <meta name="description" content="Hide and Seek">
+    <meta name="keywords" content="Hide and Seek, Reviews, Kids Game Reviews">
+    <meta name="author" content="Olha Chovhaniuk">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+    <link rel="stylesheet" href="./css/review.css" type="text/css" />
+
+    <!--Google Font embedded-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <h2 id="review_title">Reviews</h2>
+    <div id="card"><!--Reviews List goes here!--></div>
+
+
+
+    <!--FORM--action="./js/data.js"-->
+    <div id="Leave_teview_tag">Leave a Review
+        <form id="form" method="post">
+
+            <div id="f_name">
+                <label>Full Name </label><input id="f_i_name" type="text" required>
+            </div>
+
+            <div id="f_rating"><label>Rating </label>
+                <select id="f_i_rating" name="stars">
+                    <option value="0">-select-</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+
+                </select>
+            </div>
+
+            <div id="f_comment"><label>Comments </label><textarea id="f_i_comment" name="text"></textarea>
+            </div>
+
+            <div id="f_submit">
+                <button id="f_i_submit">Submit</button>
+            </div>
+
+        </form>
+
+    </div>
+    <script src="js/data.js"></script>
+
+
+
+
+</body>
+
+</html>
