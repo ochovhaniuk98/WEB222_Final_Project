@@ -16,6 +16,10 @@ body {
         max-width: 95%;
         height: auto;
     }
+    p
+    {
+        padding: 0px 0px;
+    }
 
 }
 
